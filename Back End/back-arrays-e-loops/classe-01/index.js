@@ -1,0 +1,6 @@
+const numeros = [2, 3, 4, 6];
+let soma = 0;
+for (let parcela of numeros) {
+    soma += parcela;
+}
+console.log(`A soma é ${soma}`);

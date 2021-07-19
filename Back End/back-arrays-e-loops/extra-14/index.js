@@ -1,0 +1,9 @@
+const arrayA = [5, 32, 3, 44, 1, 0, -1];
+const arrayB = [57, 4, 21, 2, 13, 1, 1];
+for (let i = 0; i <= arrayA.length - 1; i++) {
+    if (arrayA[i] < arrayB[i]) {
+        console.log(arrayA[i]);
+    } else {
+        console.log(arrayB[i]);
+    }
+}
