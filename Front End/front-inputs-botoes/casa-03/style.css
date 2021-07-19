@@ -1,0 +1,134 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    min-height: 100vh;
+    background: #F8EFEF;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Mulish', sans-serif;
+}
+
+.container {
+    background: #FFFFFF;
+    box-shadow: 0px 10px 24px rgba(0, 0, 0, 0.15);
+    border-radius: 15px;
+    padding: 64px 90px 0;
+}
+
+h1 {
+    font-family: 'Rokkitt', serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 41px;
+    margin-bottom: 15px;
+}
+
+p {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 23px;
+    color: #161843;
+    margin-bottom: 52px;
+}
+
+input {
+    all: unset;
+    border: 1px solid #CAD6E4;
+    box-sizing: border-box;
+    border-radius: 5px;
+    padding: 25px;
+    width: 100%;
+    margin-bottom: 16px;
+}
+
+input:focus {
+    border-color: #26394F;
+}
+
+.space-between {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 55px;
+}
+
+a {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 20px;
+    color: #0C6787;
+}
+
+button {
+    all: unset;
+    box-sizing: border-box;
+    background: #046586;
+    border-radius: 5px;
+    color: #FFFFFF;
+    padding: 25px 35px;
+    display: flex;
+    align-items: center;
+}
+
+button:hover {
+    background: #006f94;}
+
+#seta {
+    margin-left: 14px;
+}
+
+.rodaPe {
+    border-top: 1px solid #CAD6E4;
+    padding: 35px 0 0;
+    text-align: center;
+}
+
+h2 {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 18px;
+    color: #838A9E;
+    margin-bottom: 30px;
+}
+
+.space-between2 button {
+    all: unset;
+    background: #FFFFFF;
+    border: 1px solid #CAD6E4;
+    box-sizing: border-box;
+    border-radius: 5px;
+    padding: 10px 0;
+    width: 46%;
+    margin-bottom: 50px;
+}
+
+#btn-google {
+    margin-left: 16px;
+}
+
+.space-between2 button:hover {
+    border-color: #26394F;
+}
+
+.rodaPe p {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 18px;
+}
+
+.rodaPe a {
+    color: #046586;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+}
