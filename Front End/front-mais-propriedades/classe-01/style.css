@@ -1,0 +1,44 @@
+body {
+    background: #E5E5E5;
+    padding: 50px;
+}
+
+.card {
+    background-color: white;
+    border-radius: 20px;
+    text-align: center;
+    max-width: 432px;
+    margin: 0 auto;
+    margin-bottom: 50px;
+    padding: 30px 52px 70px 52px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.btn-fechar {
+    width: 30px;
+    margin-left: auto;
+}
+
+img {
+    margin-bottom: 30px;
+}
+
+p {
+    margin-bottom: 40px;
+}
+
+.btn {
+    text-decoration: none;
+    border-radius: 5px;
+    padding: 14px 62px;
+}
+
+.btn-salmao {
+    background: #ED6755;
+    color: white;
+}
+
+.btn-roxo {
+    background: #1C1B5E;
+    color: white;
+}
