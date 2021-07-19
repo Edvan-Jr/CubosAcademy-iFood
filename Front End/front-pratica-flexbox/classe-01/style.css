@@ -1,0 +1,87 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    min-height: 100vh;
+    background-color: #F2F2F2;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container {
+    display: flex;
+    max-width: 920px;
+    max-height: 500px;
+    background-color: #E28625;
+    border-radius: 8px;
+}
+
+img {
+    margin-bottom: 35px;
+}
+
+h1 {
+    font-family: 'Big Shoulders Display', cursive;
+    color: #F2F2F2;
+    margin-bottom: 25px;
+}
+
+p, a {
+    font-family: 'Lexend Deca', sans-serif;
+}
+
+p {
+    color: #FFFFFF;
+    font-family: Lexend Deca;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 25px;
+    mix-blend-mode: normal;
+    opacity: 0.75;
+    margin-bottom: 83px;
+}
+
+a {
+    text-decoration: none;
+    background: #F2F2F2;
+    border-radius: 25px;
+    padding: 12px 32px;
+}
+
+.cards {
+    padding: 48px;;
+}
+
+.esquerda {
+    background-color: #E28625;
+    border-bottom-left-radius: 8px;
+    border-top-left-radius: 8px;
+}
+
+.meio {
+    background-color: #006971;
+    border-radius: 8px;
+}
+
+.direita {
+    background-color: #004140;
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+}
+
+.esquerda a {
+    color: #E28625;
+}
+
+.meio a {
+    color: #006971;
+}
+
+.direita a {
+    color: #004140;
+}
