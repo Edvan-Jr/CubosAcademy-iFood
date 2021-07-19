@@ -1,0 +1,85 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url("/classe-02/assets/background.jpg");
+    padding-top: 130px;
+    display: flex;
+    justify-content: center;
+}
+
+.card {
+    max-width: 350px;
+    text-align: center;
+    font-family: 'Kumbh Sans', sans-serif;
+}
+
+.pattern {
+    margin-bottom: -25px;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+
+.perfil {
+    border-radius: 50%;
+    border: 6px solid #FFF;
+    margin-top: -200px;
+    margin-bottom: -60px;
+}
+
+.identificacao {
+    background-color: #FFF;
+    padding-top: 72px;
+    padding-bottom: 28px;
+}
+
+.nome {
+    margin-top: 30px;
+    margin-right: 10px;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 18px;
+    color: #2E3349;
+}
+
+.idade {
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 18px;
+    color: #6B7082;
+}
+
+.localizacao {
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 14px;
+    color: #6B7082;
+    margin-top: 15px;
+}
+
+.numeros {
+    background-color: #FFF;
+    border-top: 1px solid #E8E9EC;
+    display: flex;
+    justify-content: space-around;
+    padding: 24px;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+
+.numbers {
+    font-weight: bold;
+    font-size: 18px;    
+    line-height: 18px;
+    color: #2E3349;
+}
+
+.itens {
+    font-weight: normal;
+    font-size: 10px;
+    line-height: 10px;
+    color: #6B7082;
+}
