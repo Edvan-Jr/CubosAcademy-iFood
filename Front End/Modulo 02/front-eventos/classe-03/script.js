@@ -16,6 +16,8 @@ botaoConfirmar.addEventListener('click', function () {
     botaoInscrever.classList.remove('inscrito');
 
     botaoInscrever.addEventListener('click', inscrever);
+
+    botaoInscrever.removeEventListener('click', mostrarModal); //tava faltando
 })
 
 function inscrever(event) {
@@ -25,9 +27,9 @@ function inscrever(event) {
     botaoClicado.classList.add('inscrito');
 
     botaoClicado.removeEventListener('click', inscrever);
-    botaoClicado.addEventListener('click', function () {
-        if (botaoClicado.classList.length === 2) {
-            modal.classList.remove('escondido');
-        }
-    })
+    botaoClicado.addEventListener('click', mostrarModal); //ao invés de função anônima pra mostrar modal
+}
+
+function mostrarModal() {
+    modal.classList.remove('escondido');
 }
