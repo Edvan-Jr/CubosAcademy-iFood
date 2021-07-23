@@ -1,0 +1,95 @@
+.hero {
+    background-image: url('../../assets/home/image-homepage-hero.jpg');
+    background-size: cover;
+
+    width: 1110px;
+    height: 600px;
+    margin-bottom: 149px;
+
+    display: flex;
+    flex-direction: column-reverse;
+}
+
+.apresentacao {
+    background-color: #FAFAFA;
+
+    width: 445px;
+    height: 357px;
+    padding: 56px 20px 0px 27px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.p-apresentacao {
+    font-family: 'Ibarra Real Nova', serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 50px;
+    line-height: 50px;
+    letter-spacing: -0.446429px;
+    color: #33323D;
+}
+
+.div-btn-sobreMim {
+    width: 200px;
+    height: 48px;
+
+    margin-left: -27px;
+}
+
+.btn-sobreMim {
+    background-color: #203A4C;
+    
+    text-decoration: none;
+
+    display: flex;
+    align-items: center;
+
+    font-family: 'Public Sans';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 14px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+
+    cursor: pointer;
+}
+
+.btn-sobreMim:hover {
+    background-color: #5FB4A2;
+}
+
+.seta-btn-sobreMim {
+    background-color: rgba(0, 0, 0, 0.1);
+
+    padding: 18px 16px;
+}
+
+.span-btn-sobreMim {
+    padding-left: 33px;
+}
+
+.sobre {
+    background-repeat: no-repeat;
+    background-image: url(../../assets/home/image-homepage-profile.jpg);
+    background-size: 50%;
+    
+    width: 1110px;
+
+    margin-bottom: 140px;
+
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.conteudo-sobre {
+    width: 37.4%;
+
+    padding: 51px 0 46px 0;
+    border-top: 1px solid rgba(76, 72, 112, 0.15);
+    border-bottom: 1px solid rgba(76, 72, 112, 0.15);
+}

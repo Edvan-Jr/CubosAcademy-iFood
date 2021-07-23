@@ -1,0 +1,189 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+label {
+    all:unset;
+
+    font-family: 'Public Sans';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 13px;
+    line-height: 30px;
+    color: rgba(51, 50, 61, 0.8);
+}
+
+input {
+    all: unset;
+}
+
+button {
+    all:unset;
+
+    cursor: pointer;
+}
+
+body {
+    background-color: #FAFAFA;
+
+    width: 1440px;
+    min-height: 100vh;
+    padding: 64px 165px 0 165px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+header {
+    width: 1110px;
+    padding-bottom: 54px;
+
+    display: flex;
+    justify-content: space-between;
+}
+
+nav {
+    font-family: 'Public Sans', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 14px;
+    letter-spacing: 2px;
+    text-transform: uppercase;   
+}
+
+ul {
+    display: flex;
+}
+
+li {
+    list-style-type: none;
+    padding-left: 42px;
+}
+
+/*.li-header {
+    
+}*/
+
+.a-nav-header {
+    text-decoration: none;
+    color: #33323D;
+}
+
+.a-nav-header:visited {
+    color: #5FB4A2;
+}
+
+h1 {
+    font-family: 'Ibarra Real Nova';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 42px;
+    letter-spacing: -0.357143px;
+    color: #33323D;
+
+    margin-bottom: 28px;
+}
+
+p {
+    font-family: 'Public Sans';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 27px;
+    color: rgba(51, 50, 61, 0.8);
+
+    margin-bottom: 24px;
+}
+
+.div-btns {
+    display: flex;
+    justify-content: center;
+}
+
+.btns {
+    all: unset;
+
+    padding: 17px 28px;
+
+    border: 1px solid black;
+
+    display: flex;
+    align-self: center;
+    
+    font-family: Public Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 14px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #33323D;
+
+    cursor: pointer;
+}
+
+.btns:hover {
+    background-color: #33323D;
+
+    border-color: 33323D;
+
+    color: #FAFAFA;
+}
+
+.contato {
+    width: 1110px;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    margin-bottom: 140px;
+}
+
+
+.contato h1 {
+    width: 367px;
+
+    margin-top: 27px;
+}
+
+footer {
+    background-color: #33323D;
+
+    width: 1440px;
+    height: 80px;
+
+    margin-left: -165px;
+    padding: 0 165px;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.left-footer {
+    display: flex;
+    align-items: center;
+    padding-left: 78px;
+}
+
+.logo {
+    margin-right: 48px;
+}
+
+.nav-footer {
+    color: #FFFFFF;
+}
+
+.nav-redesSociais {
+    margin-right: -78px;
+}
+
+/*.li-footer {
+    margin-left: 15px;
+}*/

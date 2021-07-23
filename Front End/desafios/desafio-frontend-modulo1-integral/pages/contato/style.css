@@ -1,0 +1,74 @@
+.contact {
+    padding: 48px 0;
+
+    display: flex;
+
+    border-top: 1px solid rgba(76, 72, 112, 0.15);
+}
+
+.left-contact {
+    width: 350px;
+    margin-right: 125px;
+}
+
+.right-contact {
+    width: 635px;
+
+    display: flex;
+    flex-direction: column;
+}
+
+.contact P {
+    margin-bottom: 54px;
+}
+
+.primeiro-li-contact {
+    padding-left: 0;
+}
+
+.contact input {
+    background: rgba(51, 50, 61, 0.1);
+
+    height: 48px;
+    margin-bottom: 24px;
+
+    border: 1px solid #FAFAFA;
+}
+
+.contact input:focus {
+    border: 1px solid #000000;
+}
+
+.txtAreaMsg {
+    all:unset;
+
+    background: rgba(51, 50, 61, 0.1);
+
+    height: 96px;
+    margin-bottom: 24px;
+
+    border: 1px solid #FAFAFA;
+}
+
+.txtAreaMsg:focus {
+    border: 1px solid #000000;
+}
+
+.enviar {
+    background-color: #203A4C;
+    
+    width: 140px;
+    margin-bottom: 70px;
+
+    display: flex;
+    justify-content: center;
+    align-self: initial;
+
+    border: none;
+
+    color: #FFFFFF;
+}
+
+.enviar:hover {
+    background-color: #5FB4A2;
+}
