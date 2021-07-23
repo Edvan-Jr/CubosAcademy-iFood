@@ -26,6 +26,8 @@ function inscrever(event) {
 
     botaoClicado.removeEventListener('click', inscrever);
     botaoClicado.addEventListener('click', function () {
-        modal.classList.remove('escondido');
+        if (botaoClicado.classList.length === 2) {
+            modal.classList.remove('escondido');
+        }
     })
 }
