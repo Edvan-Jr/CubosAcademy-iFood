@@ -1,0 +1,75 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  background-color: #E5E5E5;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  font-family: 'Mulish', sans-serif;
+}
+
+.card {
+  background-image: url('./assets/hamburguer.png');
+  background-repeat: no-repeat;
+  background-color: #FFFFFF;
+
+  width: 302px;
+  height: 428px;
+
+  border-radius: 12px;
+
+  padding: 211px 24px 26px 24px;
+
+  text-align: center;
+
+}
+
+h1 {
+  margin-top: 8px;
+  margin-bottom: 8px;
+
+  font-size: 24px;
+}
+
+p {
+  margin-bottom: 50px;
+
+  font-size: 14px;
+}
+
+.controls {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+button {
+  all: unset;
+
+  background-color: #459275;
+  color: #FFFFFF;
+
+  width: 39px;
+  height: 44px;
+
+  border-radius: 8px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  padding-bottom: 5px;
+
+  cursor: pointer;
+}
+
+span, button {
+  font-size: 36px;
+}
